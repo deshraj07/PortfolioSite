@@ -65,7 +65,7 @@ const Header = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink href="#projects" className ={` px-4 py-2 hover:text-primary transition-colors ${activeTab === "#projects"? " text-green-500":""} `}>
+              <NavigationMenuLink href="#projects" className ={` px-4 py-2 hover:text-primary transition-colors ${activeTab === "#projects"? " text-green-500":""} `}>   
                 Projects
               </NavigationMenuLink>
             </NavigationMenuItem>
