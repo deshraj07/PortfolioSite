@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'; // Adjust path
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'; // Adjust path
 import { Badge } from '@/components/ui/badge'; // Adjust path
-import { Code, Palette, Zap, Mail, Github, ExternalLink, GraduationCap, Database, Server, Layers } from 'lucide-react'; // Icons from Lucide
+import { Code,  Mail, Github, ExternalLink, GraduationCap, Database, Server, Layers } from 'lucide-react'; // Icons from Lucide
 import { motion } from 'framer-motion'; // Optional for animations; remove if not using
 import { ContactDialog } from '@/components/ContactDialog/contact-dialog';
 

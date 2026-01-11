@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Linkedin, Twitter, Facebook, Instagram, Youtube, Factory, User } from 'lucide-react'; // Icons from Lucide
+import { Github, Linkedin, Twitter, Facebook, Instagram, Youtube, User } from 'lucide-react'; // Icons from Lucide
 
 const Footer = () => {
   return (
@@ -68,6 +67,9 @@ const Footer = () => {
               </a>
               <a href="https://facebook.com/yourusername" className="footer-icon">
                 <Facebook className="h-5 w-5" />
+              </a>
+              <a href="https://facebook.com/yourusername" className="footer-icon">
+                <Twitter className="h-5 w-5" />
               </a>
               <a href="https://instagram.com/yourusername" className="footer-icon">
                 <Instagram className="h-5 w-5" />

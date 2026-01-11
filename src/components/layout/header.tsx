@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useEffectEvent } from 'react';
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from '@/components/ui/navigation-menu'; // Adjust path
+import  { useState, useEffect } from 'react';
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '@/components/ui/navigation-menu'; // Adjust path
 import { Button } from '@/components/ui/button'; // Adjust path
-import { Menu, X, Sun, Moon, Grape } from 'lucide-react'; // Icons from Lucide (install via npm)
+import { Menu, X, Sun, Moon } from 'lucide-react'; // Icons from Lucide (install via npm)
 import { useLocation } from 'react-router-dom';
 import { useTabChangeStore } from '@/store/tab.store';
 
